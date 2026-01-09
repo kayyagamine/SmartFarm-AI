@@ -1,0 +1,32 @@
+# Large binary artifacts
+*.bin
+*.faiss
+*.index
+
+# RAG / vector indexes
+Backends/api/rag_service/index/
+
+# Data & models
+data/
+*.csv
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# ML training artifacts (DO NOT PUSH)
+ml_training/data/
+ml_training/datasets/
+ml_training/checkpoints/
+ml_training/weights/
+ml_training/models/
+ml_training/runs/
+ml_training/logs/
+ml_training/output/
+
+# Model files
+*.h5
+*.pt
+*.pth
+*.pkl
+
